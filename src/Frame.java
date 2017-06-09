@@ -11,10 +11,7 @@ public class Frame {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Frame(double d) {
-		// TODO Auto-generated constructor stub
-	}
-
+	
 	public int getFirstThrow() {
 		return firstThrow;
 	}

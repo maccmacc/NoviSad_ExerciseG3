@@ -25,3 +25,27 @@ CompilationAction 1497012175906 TestBowling.java
 CompilationAction 1497012175908 TestBowling.java
 RefactoringAction 1497012183733 Frame.java ADD Frame(double)/2 METHOD
 EditAction 1497012191174 Frame.java 823 8 7 0
+CompilationAction 1497012192766 Frame.java
+CompilationAction 1497012192769 TestBowling.java
+CompilationAction 1497012192773 TestBowling.java
+CompilationAction 1497012192774 TestBowling.java
+RefactoringAction 1497012197705 Frame.java REMOVE Frame(double)/2 METHOD
+FileOpenedAction 1497012231394 BowlingException.java 58 0 0 0
+RefactoringAction 1497012528285 TestBowling.java ADD void test FIELD
+RefactoringAction 1497012529301 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497012530811 TestBowling.java RENAME test_=>void test_test FIELD
+RefactoringAction 1497012533820 TestBowling.java RENAME test_test=>void test_od_ FIELD
+RefactoringAction 1497012535331 TestBowling.java RENAME test_od_=>void test_od_spare FIELD
+RefactoringAction 1497012833924 TestBowling.java REMOVE test_of_limits FIELD
+RefactoringAction 1497012833925 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1497012833927 TestBowling.java REMOVE test_od_spare FIELD
+RefactoringAction 1497012835942 TestBowling.java ADD void test_of_limits FIELD
+RefactoringAction 1497012835944 TestBowling.java ADD void test_od_spare FIELD
+RefactoringAction 1497012838476 TestBowling.java REMOVE test_of_limits FIELD
+RefactoringAction 1497012838477 TestBowling.java REMOVE test_od_spare FIELD
+RefactoringAction 1497012839988 TestBowling.java ADD void test() METHOD
+RefactoringAction 1497012839990 TestBowling.java ADD void test_of_limits FIELD
+RefactoringAction 1497012839991 TestBowling.java ADD void test_od_spare FIELD
+RefactoringAction 1497012923032 Frame.java ADD int size() METHOD
+RefactoringAction 1497012950595 TestBowling.java RENAME test_od_spare=>void test_od_spare_ FIELD
+EditAction 1497013027913 TestBowling.java 740 3 9 0
