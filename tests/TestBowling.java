@@ -48,6 +48,22 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void check_if_single_frame_score_is_inside_bounds() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(5,6));
+	}
+	
+	@Test
+	public void check_if_game_score_works() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(1,10));
+		game.addFrame(new Frame(1,3));
+	    String score = Integer.toString(game.score());
+	    assertEquals("Rezultat igre se ne poklapa sa ocekivanim","20",score);
+	}
+	
 	 
 	 
 	 
