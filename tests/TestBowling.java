@@ -8,5 +8,18 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test(expected=BowlingException.class){
+	public void test_of_limits throws BowlingException{
+		BowlingGame game= new BowlingGame();
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+		game.addFrame(new Frame(0.0));
+	}
+	}
 
-}
