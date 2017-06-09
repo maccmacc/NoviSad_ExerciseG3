@@ -37,4 +37,11 @@ public class Frame {
 		//to be implemented
 		return false;
 	}
+
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
 }
