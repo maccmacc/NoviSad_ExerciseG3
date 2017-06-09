@@ -5,5 +5,4 @@ public class BowlingException extends Exception {
 		super();
 	}
 	
-	
 }

@@ -23,29 +23,27 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_if_spare_works() throws BowlingException{
-		BowlingGame game= new BowlingGame();
-		game.addFrame(new Frame(10,0));
-		String check= Boolean.toString(game.getFrames().get(0).isSpare());
-		assertEquals("neocekivani ishod ocekivao se spare", "true", check);
-		
+	public void test_if_frame_spare_works() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(5,5));
+		String check = Boolean.toString(game.getFrames().get(0).isSpare()) ;
+		assertEquals("Greska neocekivani ishod.Ocekivao se spare","true",check);
 	}
 	
 	@Test
-	public void test_if_strike_works() throws BowlingException {
+	public void test_if_frame_strike_works() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10,0));
-		String check= Boolean.toString(game.getFrames().get(0).isStrike());
-		assertEquals("neocekivani ishod ocekivao se spare", "true", check);
+		String check = Boolean.toString(game.getFrames().get(0).isStrike()) ;
+		assertEquals("Greska neocekivani ishod.Ocekivao se strike","true",check);
 	}
 	
 	@Test
-	public void test_score() throws BowlingException {
+	public void check_if_frame_score_works() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(5,2));
-		String check= Integer.toString(game.getFrames().get(0).score());
-		assertEquals("greska se ne poklapa sa ocekivanjima", "7", check);
-		
+		String score = Integer.toString(game.getFrames().get(0).score());
+		assertEquals("Greska skor frejma se ne poklapa sa ocekivanim","7",score);
 	}
 	
 	@Test
