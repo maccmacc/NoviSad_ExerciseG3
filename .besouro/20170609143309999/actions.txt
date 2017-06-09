@@ -64,3 +64,16 @@ CompilationAction 1497013204412 TestBowling.java
 RefactoringAction 1497013222788 Frame.java ADD int size()/2 METHOD
 RefactoringAction 1497013227680 Frame.java REMOVE size()/2 METHOD
 EditAction 1497013228695 Frame.java 834 8 8 0
+CompilationAction 1497013230149 BowlingGame.java
+CompilationAction 1497013230151 TestBowling.java
+CompilationAction 1497013230153 TestBowling.java
+CompilationAction 1497013230154 TestBowling.java
+RefactoringAction 1497013330828 TestBowling.java ADD void test_if_spare_works() METHOD
+RefactoringAction 1497013548198 TestBowling.java ADD void test_if_strike_works() METHOD
+RefactoringAction 1497013628956 TestBowling.java REMOVE test_if_frame_strike_works() METHOD
+CompilationAction 1497013664461 TestBowling.java
+CompilationAction 1497013664461 TestBowling.java
+CompilationAction 1497013729140 BowlingGame.java
+CompilationAction 1497013729343 TestBowling.java
+CompilationAction 1497013729343 TestBowling.java
+EditAction 1497013731421 TestBowling.java 1174 4 17 2

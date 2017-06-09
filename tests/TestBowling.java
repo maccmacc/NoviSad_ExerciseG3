@@ -21,11 +21,30 @@ public class TestBowling {
 		game.addFrame(new Frame(0.0));
 		
 	}
-	 @Test (excepted=BowlingException.class)
-	 public void test_od_spare_works() throws BowlingExpection {
-		 BowlingGame game= new BowlingGame();
-		 
-		 String check= toString()
-		 
-	 }
+	
+	@Test
+	public void test_if_spare_works() throws BowlingException{
+		BowlingGame game= new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		String check= Boolean.toString(game.getFrames().get(0).isSpare());
+		assertEquals("neocekivani ishod ocekivao se spare", "true", check);
+		
+	}
+	
+	@Test
+	public void test_if_strike_works() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(10,0));
+		String check= Boolean.toString(game.getFrames().get(0).isStrike());
+		assertEquals("neocekivani ishod ocekivao se spare", "true", check);
+	}
+	
+	
+	
+	 
+	 
+	 
+	 
+		
+	 
 }
