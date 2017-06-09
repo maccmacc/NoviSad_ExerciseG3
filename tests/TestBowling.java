@@ -61,7 +61,7 @@ public class TestBowling {
 		game.addFrame(new Frame(1,10));
 		game.addFrame(new Frame(1,3));
 	    String score = Integer.toString(game.score());
-	    assertEquals("Rezultat igre se ne poklapa sa ocekivanim","20",score);
+	    assertEquals("Rezultat se ne poklapa","20",score);
 	}
 	
 	 
