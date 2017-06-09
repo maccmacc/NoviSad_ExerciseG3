@@ -49,3 +49,11 @@ RefactoringAction 1497012839991 TestBowling.java ADD void test_od_spare FIELD
 RefactoringAction 1497012923032 Frame.java ADD int size() METHOD
 RefactoringAction 1497012950595 TestBowling.java RENAME test_od_spare=>void test_od_spare_ FIELD
 EditAction 1497013027913 TestBowling.java 740 3 9 0
+CompilationAction 1497013029489 TestBowling.java
+CompilationAction 1497013029492 TestBowling.java
+CompilationAction 1497013029493 TestBowling.java
+RefactoringAction 1497013041312 TestBowling.java RENAME test_od_spare_works()=>void test_if_spare_works() METHOD
+RefactoringAction 1497013165025 TestBowling.java ADD void test_if_frame_strike_works() METHOD
+RefactoringAction 1497013170039 TestBowling.java REMOVE test_if_spare_works() METHOD
+RefactoringAction 1497013192582 BowlingGame.java ADD Object getFrames() METHOD
+EditAction 1497013202885 BowlingGame.java 897 5 3 0
