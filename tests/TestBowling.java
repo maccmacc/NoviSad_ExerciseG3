@@ -26,24 +26,25 @@ public class TestBowling {
 	public void test_if_frame_spare_works() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(5,5));
-		String check = Boolean.toString(game.getFrames().get(0).isSpare()) ;
-		assertEquals("Greska neocekivani ishod.Ocekivao se spare","true",check);
+		Frame f = new Frame(10,0);
+		assertEquals(true,f.isSpare());
 	}
 	
 	@Test
 	public void test_if_frame_strike_works() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10,0));
-		String check = Boolean.toString(game.getFrames().get(0).isStrike()) ;
-		assertEquals("Greska neocekivani ishod.Ocekivao se strike","true",check);
+		
+		Frame f = new Frame(10,0);
+		assertEquals(true,f.isStrike());
 	}
 	
 	@Test
 	public void check_if_frame_score_works() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(5,2));
-		String score = Integer.toString(game.getFrames().get(0).score());
-		assertEquals("Greska skor frejma se ne poklapa sa ocekivanim","7",score);
+		Frame f = new Frame(10,0);
+		assertEquals(true,f.score());
 	}
 	
 	@Test

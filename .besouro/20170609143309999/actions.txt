@@ -117,3 +117,31 @@ CompilationAction 1497015406408 TestBowling.java
 UnitTestCaseAction 1497015499164 TestBowling.java FAIL
 UnitTestSessionAction 1497015499164 TestBowling.java FAIL
 EditAction 1497015513383 BowlingException.java 107 1 1 0
+UnitTestCaseAction 1497015516407 TestBowling.java FAIL
+UnitTestSessionAction 1497015516407 TestBowling.java FAIL
+CompilationAction 1497015707056 TestBowling.java
+CompilationAction 1497015707196 TestBowling.java
+UnitTestCaseAction 1497015709094 TestBowling.java FAIL
+UnitTestSessionAction 1497015709094 TestBowling.java FAIL
+UnitTestCaseAction 1497015716680 TestBowling.java OK
+UnitTestSessionAction 1497015716680 Rerun TestBowling.check_if_single_frame_score_is_inside_bounds OK
+CompilationAction 1497015985753 TestBowling.java
+CompilationAction 1497015985936 TestBowling.java
+UnitTestCaseAction 1497016047316 TestBowling.java FAIL
+UnitTestSessionAction 1497016047316 TestBowling.java FAIL
+UnitTestCaseAction 1497016060981 TestBowling.java FAIL
+UnitTestSessionAction 1497016060981 TestBowling.java FAIL
+UnitTestCaseAction 1497016068081 TestBowling.java FAIL
+UnitTestSessionAction 1497016068081 TestBowling.java FAIL
+UnitTestCaseAction 1497016079111 TestBowling.java FAIL
+UnitTestSessionAction 1497016079111 TestBowling.java FAIL
+UnitTestCaseAction 1497016083194 TestBowling.java FAIL
+UnitTestSessionAction 1497016083194 TestBowling.java FAIL
+UnitTestCaseAction 1497016087380 TestBowling.java FAIL
+UnitTestSessionAction 1497016087380 TestBowling.java FAIL
+UnitTestCaseAction 1497016090850 TestBowling.java FAIL
+UnitTestSessionAction 1497016090850 TestBowling.java FAIL
+UnitTestCaseAction 1497016095237 TestBowling.java FAIL
+UnitTestSessionAction 1497016095252 TestBowling.java FAIL
+UnitTestCaseAction 1497016098931 TestBowling.java OK
+UnitTestSessionAction 1497016098931 Rerun TestBowling.check_if_single_frame_score_is_inside_bounds OK
