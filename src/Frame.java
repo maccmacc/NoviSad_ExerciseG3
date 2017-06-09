@@ -5,6 +5,7 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		int score=0;
 	}
 	
 	public Frame(double d) {
@@ -23,18 +24,30 @@ public class Frame {
 	//returns the score of a single frame
 	public int score(){
 		//to be implemented
+		if(firstThrow<=10)
+		{
+			return firstThrow + secondThrow;
+		}
 		return 0;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		//to be implemented
+		if (firstThrow==10)
+		{
+			return true;
+		}
 		return false;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		//to be implemented
+		if(firstThrow ==10)
+		{
+			return true;
+		}
 		return false;
 	}
 

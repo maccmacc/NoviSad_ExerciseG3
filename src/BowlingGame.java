@@ -31,6 +31,16 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
+		int score=0;
+		for(int i=0;i<getFramesNumber(); i++)
+		{
+			score+=((List<Frame>) this.getFrames()).get(i).score();
+		}
+		return 0;
+	}
+
+	private int getFramesNumber() {
+		// TODO Auto-generated method stub
 		return 0;
 	}
 
