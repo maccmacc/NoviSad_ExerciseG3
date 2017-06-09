@@ -9,7 +9,7 @@ public class TestBowling {
 		fail("Not yet implemented");
 	}
 	
-	@Test(expected=BowlingException.class){
+	@Test(expected=BowlingException.class)
 	public void test_of_limits throws BowlingException{
 		BowlingGame game= new BowlingGame();
 		game.addFrame(new Frame(0.0));
@@ -19,7 +19,7 @@ public class TestBowling {
 		game.addFrame(new Frame(0.0));
 		game.addFrame(new Frame(0.0));
 		game.addFrame(new Frame(0.0));
-		game.addFrame(new Frame(0.0));
-	}
+		
 	}
 
+}

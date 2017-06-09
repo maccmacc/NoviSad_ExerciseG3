@@ -15,3 +15,13 @@ RefactoringAction 1497012123942 TestBowling.java RENAME test_=>void test_of FIEL
 RefactoringAction 1497012125956 TestBowling.java RENAME test_of=>void test_of_limitl FIELD
 RefactoringAction 1497012127468 TestBowling.java RENAME test_of_limitl=>void test_of_limits FIELD
 EditAction 1497012154080 TestBowling.java 581 1 1 0
+CompilationAction 1497012161401 TestBowling.java
+CompilationAction 1497012161404 TestBowling.java
+CompilationAction 1497012161405 TestBowling.java
+CompilationAction 1497012161406 TestBowling.java
+CompilationAction 1497012175902 TestBowling.java
+CompilationAction 1497012175904 TestBowling.java
+CompilationAction 1497012175906 TestBowling.java
+CompilationAction 1497012175908 TestBowling.java
+RefactoringAction 1497012183733 Frame.java ADD Frame(double)/2 METHOD
+EditAction 1497012191174 Frame.java 823 8 7 0
