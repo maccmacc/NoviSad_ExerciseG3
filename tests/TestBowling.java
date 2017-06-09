@@ -39,7 +39,14 @@ public class TestBowling {
 		assertEquals("neocekivani ishod ocekivao se spare", "true", check);
 	}
 	
-	
+	@Test
+	public void test_score() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(5,2));
+		String check= Integer.toString(game.getFrames().get(0).score());
+		assertEquals("greska se ne poklapa sa ocekivanjima", "7", check);
+		
+	}
 	
 	 
 	 

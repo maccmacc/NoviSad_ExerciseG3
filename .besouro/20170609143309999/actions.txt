@@ -77,3 +77,11 @@ CompilationAction 1497013729140 BowlingGame.java
 CompilationAction 1497013729343 TestBowling.java
 CompilationAction 1497013729343 TestBowling.java
 EditAction 1497013731421 TestBowling.java 1174 4 17 2
+CompilationAction 1497013732905 TestBowling.java
+RefactoringAction 1497013785336 TestBowling.java ADD void te FIELD
+RefactoringAction 1497013786867 TestBowling.java REMOVE te FIELD
+RefactoringAction 1497013879619 TestBowling.java ADD void test FIELD
+RefactoringAction 1497013880650 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497013883195 TestBowling.java RENAME test_=>void test_score FIELD
+RefactoringAction 1497013884711 TestBowling.java RENAME test_score=>void test_score() METHOD
+EditAction 1497014007872 TestBowling.java 1452 5 21 3
